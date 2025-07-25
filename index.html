@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Смотры</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   
+      
+  <div class="container">
+    <h1>Задай вопрос о наших Смотрителях</h1>
+    <input type="text" id="userInput" placeholder="Напиши вопрос..." />
+    <button id="submitBtn">Отправить</button>
+
+    <div id="response" class="hidden">
+      <h2>Он</h2>
+      <div class="player-info">
+        <img id="playerAvatar" src="" alt="Аватар игрока" />
+        <p id="playerName"></p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Блок профиля -->
+<div class="profile-footer">
+  <img src="https://cs-sexy.ru/files/avatars/1753216621.jpg?v=4561" alt="Avatar" class="footer-avatar">
+  <div class="footer-info">
+    <p class="footer-name">Создал:</p>
+    <h2><a class="glow" target="_blank">XXL</a></h2>
+    
+    <div class="footer-links">
+      <a href="https://discord.gg/saS8eTf4zq" target="_blank" title="Discord">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+      </a>
+      <a href="https://t.me/p0dstrelil" target="_blank" title="Telegram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+      </a>
+      <a href="https://vk.com/speridnyakov" target="_blank" title="VK">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145813.png" alt="VK">
+      </a>
+    </div>
+  </div>
+</div>
+
+  
+  <button id="privilegeBtn" class="privilege-btn">Получить приву</button>
+
+ <!-- Центрированная табличка -->
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <strong>Да я ж пошутил</strong>
+      
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+
+ 
+
+</body>
+</html>
